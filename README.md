@@ -13,13 +13,15 @@ mongoose-types - Useful types and type plugins for Mongoose
     npm install mongoose-types
 
 ### Setup
-To include all of the defined types:
+To include all of the defined types: 
+
     var mongoose = require("mongoose");
     var db = mongoose.createConnection("mongodb://localhost/sampledb");
     var mongooseTypes = require("mongoose-types");
     mongooseTypes.loadTypes(mongoose);
 
 You can also specify that you only want to load and use a limited subset of the types provided:
+
     var mongoose = require("mongoose");
     var db = mongoose.createConnection("mongodb://localhost/sampledb");
     var mongooseTypes = require("mongoose-types");
